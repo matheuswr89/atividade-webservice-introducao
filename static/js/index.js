@@ -100,9 +100,7 @@ buttonCadastrar.onclick = function () {
 };
 
 function addMessage(message) {
-  for (let i = 0; i < message.length; i++) {
-    p.innerHTML += message[i];
-  }
+  p.innerHTML = message.toString().replaceAll(",", "");
 }
 
 inputNome.onkeyup = function (event) {
