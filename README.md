@@ -1,7 +1,7 @@
 Atividade de contextualização da disciplina
 
 Implemente um programa que utilize comunicação via rede e arquitetura cliente-servidor, utilizando duas
-linguagens de programação diferentes (escolha livre), conforme a figura acima.
+linguagens de programação diferentes (escolha livre).
 
 No programa cliente, o usuário poderá criar turmas e adicionar alunos à mesma (apenas em memória, não é
 necessário utilizar persistência). Após o cadastro, os dados serão enviados para o programa servidor, que, para
